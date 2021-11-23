@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dddddd;
+}
+
+.navbar{
+    padding: 32px;
+}
+
+.nav-center{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+
+}
+
+.recipe-text{
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-link{
+    padding: 20px 10px;
+}
+
+.nav-links a{
+    margin-right: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.nav-links a:last-child{
+    background-color: blueviolet;
+    padding: 10px;
+    color: white;
+    border-radius: 3px;
+}
+
+.hero-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero-container img{
+    width: 100%;
+    height: 350px;
+}
+
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left:50% ;
+    transform: translate(-50%,-50%);
+}
+
+.hero-text h1{
+    font-size: 56px;
+    color: white;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.hero-text h4{
+    font-size: 28px;
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.recipes-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+
+}
+
+.recipes-container div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-left: 5px;
+
+} 
+
+.recipes-container div:nth-child(1):first-child,div:nth-child(5){
+    box-shadow: none;
+}
+
+
+.recipe-img{
+    width: 100%;
+    height: 200px;
+}
+
+.recipe-name{
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.recipe-disp{
+    text-transform: capitalize;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.tags-list {
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+
+}
+
+.tags-list a{
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: brown;
+    text-transform: capitalize;
+}
+
+.text-r{
+    font-size: 28px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.page-footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.page-footer a{
+    text-decoration: none;
+    color: burlywood;
+    
+}
