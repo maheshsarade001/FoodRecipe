@@ -1,2 +1,2 @@
 # FoodRecipe
-Food Recipr website using basic HTML &amp; CSS.
+Food Recipe website using basic HTML &amp; CSS.
